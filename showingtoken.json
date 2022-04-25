@@ -1,25 +1,25 @@
 {
   "ShowingTime": {
     "General": {
-      "Secondary": {
-        "value": "#717495",
-        "type": "color",
-        "description": "ShowingTime Muted Blue, Button Rollover"
-      },
-      "Pending": {
-        "value": "#f8bd1d",
-        "type": "color",
-        "description": "ShowingTime Yellow, Warning, Pending Status"
-      },
       "Primary ST": {
         "value": "#000570",
         "type": "color",
         "description": "ShowingTime Blue, Primary Buttons"
       },
+      "Secondary": {
+        "value": "#717495",
+        "type": "color",
+        "description": "ShowingTime Muted Blue, Button Rollover"
+      },
       "Success": {
         "value": "#009145",
         "type": "color",
         "description": "ShowingTime Green, Confirmed Status"
+      },
+      "Pending": {
+        "value": "#f8bd1d",
+        "type": "color",
+        "description": "ShowingTime Yellow, Warning, Pending Status"
       },
       "Danger": {
         "value": "#d74006",
@@ -28,35 +28,35 @@
       }
     },
     "ShowingTime": {
-      "Light Blue": {
-        "value": "#2196f3",
-        "type": "color",
-        "description": "ShowingTime Light Blue, Buttons"
+      "Dark Blue": {
+        "value": "#000640",
+        "type": "color"
       },
       "Orange": {
         "value": "#F55200",
         "type": "color",
         "description": "ShowingTime Orange, Action Buttons"
       },
+      "Light Blue": {
+        "value": "#2196f3",
+        "type": "color",
+        "description": "ShowingTime Light Blue, Buttons"
+      },
       "Cyan": {
         "value": "#00b9b9",
         "type": "color",
         "description": "ShowingTime Cyan Billing"
-      },
-      "Dark Blue": {
-        "value": "#000640",
-        "type": "color"
       }
     },
-    "color-darkgray": {
-      "value": "#666666",
-      "type": "color"
-    },
-    "color-gray": {
-      "value": "#999999",
-      "type": "color"
-    },
     "Gray Scale": {
+      "Medium Gray": {
+        "value": "#666666",
+        "type": "color"
+      },
+      "Gray": {
+        "value": "#999999",
+        "type": "color"
+      },
       "Black": {
         "value": "#000000",
         "type": "color"
@@ -77,12 +77,16 @@
         "type": "color",
         "description": "Page BG color"
       },
-      "Background Primary": {
+      "Primary White Background": {
         "value": "#ffffff",
         "type": "color"
       },
       "Primary ST": {
         "value": "#000570",
+        "type": "color"
+      },
+      "Black Background": {
+        "value": "#000000",
         "type": "color"
       }
     },
@@ -205,6 +209,14 @@
       "value": "10",
       "type": "fontSizes",
       "description": "Regular"
+    },
+    "Bold": {
+      "value": "Bold",
+      "type": "fontWeights"
+    },
+    "Regular": {
+      "value": "Regular",
+      "type": "fontWeights"
     }
   }
 }
