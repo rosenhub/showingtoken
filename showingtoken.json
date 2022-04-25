@@ -1,5 +1,29 @@
 {
   "ShowingTime": {
+    "16": {
+      "value": "16",
+      "type": "lineHeights"
+    },
+    "24": {
+      "value": "24",
+      "type": "lineHeights"
+    },
+    "32": {
+      "value": "32",
+      "type": "lineHeights"
+    },
+    "40": {
+      "value": "40",
+      "type": "lineHeights"
+    },
+    "64": {
+      "value": "64",
+      "type": "lineHeights"
+    },
+    "72": {
+      "value": "72",
+      "type": "lineHeights"
+    },
     "General": {
       "Primary ST": {
         "value": "#000570",
