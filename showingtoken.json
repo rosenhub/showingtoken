@@ -1,16 +1,21 @@
 {
   "ShowingTime": {
     "General": {
+      "Secondary": {
+        "value": "#717495",
+        "type": "color",
+        "description": "ShowingTime Muted Blue, Button Rollover"
+      },
+      "Pending": {
+        "value": "#f8bd1d",
+        "type": "color",
+        "description": "ShowingTime Yellow, Warning, Pending Status"
+      },
       "Primary ST": {
         "value": "#000570",
         "type": "color",
         "description": "ShowingTime Blue, Primary Buttons"
       }
-    },
-    "color-muted": {
-      "value": "#717495",
-      "type": "color",
-      "description": "ShowingTime Muted Blue, Button Rollover"
     },
     "color-secondary": {
       "value": "#2196f3",
@@ -26,11 +31,6 @@
       "value": "#009145",
       "type": "color",
       "description": "ShowingTime Green, Confirmed Status"
-    },
-    "color-yellow": {
-      "value": "#f8bd1d",
-      "type": "color",
-      "description": "ShowingTime Yellow, Warning, Pending Status"
     },
     "color-red": {
       "value": "#d74006",
