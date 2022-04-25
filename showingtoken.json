@@ -1,9 +1,11 @@
 {
   "ShowingTime": {
-    "color-primary": {
-      "value": "#000570",
-      "type": "color",
-      "description": "ShowingTime Blue, Primary Buttons"
+    "General": {
+      "Primary ST": {
+        "value": "#000570",
+        "type": "color",
+        "description": "ShowingTime Blue, Primary Buttons"
+      }
     },
     "color-muted": {
       "value": "#717495",
