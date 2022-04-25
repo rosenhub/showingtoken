@@ -1,46 +1,52 @@
 {
   "ShowingTime": {
     "General": {
+      "Secondary": {
+        "value": "#717495",
+        "type": "color",
+        "description": "ShowingTime Muted Blue, Button Rollover"
+      },
+      "Pending": {
+        "value": "#f8bd1d",
+        "type": "color",
+        "description": "ShowingTime Yellow, Warning, Pending Status"
+      },
       "Primary ST": {
         "value": "#000570",
         "type": "color",
         "description": "ShowingTime Blue, Primary Buttons"
       },
-      "Secondary": {
-        "value": "#717495",
+      "Success": {
+        "value": "#009145",
         "type": "color",
-        "description": "ShowingTime Muted Blue, Button Rollover"
+        "description": "ShowingTime Green, Confirmed Status"
+      },
+      "Danger": {
+        "value": "#d74006",
+        "type": "color",
+        "description": "ShowingTime Red Error, Cancelled, Declined"
       }
     },
-    "color-secondary": {
-      "value": "#2196f3",
-      "type": "color",
-      "description": "ShowingTime Light Blue, Buttons"
-    },
-    "color-tertiary": {
-      "value": "#f6841d",
-      "type": "color",
-      "description": "ShowingTime Orange, Action Buttons"
-    },
-    "color-green": {
-      "value": "#009145",
-      "type": "color",
-      "description": "ShowingTime Green, Confirmed Status"
-    },
-    "color-yellow": {
-      "value": "#f8bd1d",
-      "type": "color",
-      "description": "ShowingTime Yellow, Warning, Pending Status"
-    },
-    "color-red": {
-      "value": "#d74006",
-      "type": "color",
-      "description": "ShowingTime Red Error, Cancelled, Declined"
-    },
-    "color-cyan": {
-      "value": "#00b9b9",
-      "type": "color",
-      "description": "ShowingTime Cyan Billing"
+    "ShowingTime": {
+      "Light Blue": {
+        "value": "#2196f3",
+        "type": "color",
+        "description": "ShowingTime Light Blue, Buttons"
+      },
+      "Orange": {
+        "value": "#F55200",
+        "type": "color",
+        "description": "ShowingTime Orange, Action Buttons"
+      },
+      "Cyan": {
+        "value": "#00b9b9",
+        "type": "color",
+        "description": "ShowingTime Cyan Billing"
+      },
+      "Dark Blue": {
+        "value": "#000640",
+        "type": "color"
+      }
     },
     "color-darkgray": {
       "value": "#666666",
@@ -50,23 +56,35 @@
       "value": "#999999",
       "type": "color"
     },
-    "color-lightgray": {
-      "value": "#dedede",
-      "type": "color",
-      "description": "Borders"
+    "Gray Scale": {
+      "Black": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "SIlver Gray": {
+        "value": "#dedede",
+        "type": "color",
+        "description": "Borders"
+      },
+      "White": {
+        "value": "#ffffff",
+        "type": "color"
+      }
     },
-    "color-background": {
-      "value": "#f2f2f2",
-      "type": "color",
-      "description": "Page BG color"
-    },
-    "black": {
-      "value": "#000000",
-      "type": "color"
-    },
-    "white": {
-      "value": "#ffffff",
-      "type": "color"
+    "Background": {
+      "Background Secondary": {
+        "value": "#f2f2f2",
+        "type": "color",
+        "description": "Page BG color"
+      },
+      "Background Primary": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "Primary ST": {
+        "value": "#000570",
+        "type": "color"
+      }
     },
     "Corner Radius": {
       "value": "4",
@@ -109,10 +127,84 @@
       "type": "borderWidth",
       "description": "Pixels"
     },
-    "P": {
-      "value": "16",
+    "H1": {
+      "value": "60",
       "type": "fontSizes",
       "description": "Pixels"
+    },
+    "Color Text": {
+      "Black Text": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "Placeholder Text": {
+        "value": "#666666",
+        "type": "color"
+      },
+      "Secondary Color Text": {
+        "value": "#F2F2F2",
+        "type": "color"
+      },
+      "White Text": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    },
+    "H2": {
+      "value": "48",
+      "type": "fontSizes"
+    },
+    "H3": {
+      "value": "32",
+      "type": "fontSizes"
+    },
+    "H4": {
+      "value": "24",
+      "type": "fontSizes"
+    },
+    "H5": {
+      "value": "20",
+      "type": "fontSizes"
+    },
+    "Body Bold": {
+      "value": "16",
+      "type": "fontSizes",
+      "description": "Bold"
+    },
+    "Body Regular": {
+      "value": "16",
+      "type": "fontSizes",
+      "description": "Regular"
+    },
+    "Body Small Bold": {
+      "value": "14",
+      "type": "fontSizes",
+      "description": "Bold"
+    },
+    "Body Small": {
+      "value": "16",
+      "type": "fontSizes",
+      "description": "Regular"
+    },
+    "Caption Bold": {
+      "value": "12",
+      "type": "fontSizes",
+      "description": "Bold"
+    },
+    "Caption": {
+      "value": "12",
+      "type": "fontSizes",
+      "description": "Regular"
+    },
+    "Fineprint Bold": {
+      "value": "10",
+      "type": "fontSizes",
+      "description": "Bold"
+    },
+    "Fineprint": {
+      "value": "10",
+      "type": "fontSizes",
+      "description": "Regular"
     }
   }
 }
