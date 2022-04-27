@@ -1,0 +1,283 @@
+/* A polyfill for browsers that don't support ligatures. */
+/* The script tag referring to this file must be placed before the ending body tag. */
+
+/* To provide support for elements dynamically added, this script adds
+   method 'icomoonLiga' to the window object. You can pass element references to this method.
+*/
+(function () {
+    'use strict';
+    function supportsProperty(p) {
+        var prefixes = ['Webkit', 'Moz', 'O', 'ms'],
+            i,
+            div = document.createElement('div'),
+            ret = p in div.style;
+        if (!ret) {
+            p = p.charAt(0).toUpperCase() + p.substr(1);
+            for (i = 0; i < prefixes.length; i += 1) {
+                ret = prefixes[i] + p in div.style;
+                if (ret) {
+                    break;
+                }
+            }
+        }
+        return ret;
+    }
+    var icons;
+    if (!supportsProperty('fontFeatureSettings')) {
+        icons = {
+            'acc_bal': '&#xe9d6;',
+            'chart_bar': '&#xe9d7;',
+            'chart_line': '&#xe9d8;',
+            'check_card': '&#xe9d9;',
+            'invoice': '&#xe9da;',
+            'logout_alt': '&#xe9db;',
+            'tune': '&#xe9dc;',
+            'icon_clsact': '&#xe9ce;',
+            'icon_crntlist': '&#xe9cf;',
+            'icon_sum': '&#xe9d0;',
+            'icon_ag_ch': '&#xe9d1;',
+            'fib_new': '&#xe9d2;',
+            'fol_sh': '&#xe9d3;',
+            'update': '&#xe9d4;',
+            'ass_late': '&#xe9d5;',
+            'icon_acc': '&#xe9ad;',
+            'icon_bch': '&#xe9ae;',
+            'icon_dp': '&#xe9af;',
+            'icon_down': '&#xe9b0;',
+            'icon_dd': '&#xe9b1;',
+            'icon_firm': '&#xe9b2;',
+            'icon_gareas': '&#xe9b3;',
+            'icon_left': '&#xe9b4;',
+            'icon_lchart': '&#xe9b5;',
+            'icon_mglass': '&#xe9b6;',
+            'icon_mls': '&#xe9b7;',
+            'icon_mobile': '&#xe9b8;',
+            'icon_mvb_warn': '&#xe9b9;',
+            'icon_offgp': '&#xe9ba;',
+            'icon_offm': '&#xe9bb;',
+            'icon_right': '&#xe9bc;',
+            'icon_save': '&#xe9bd;',
+            'icon_srchp': '&#xe9be;',
+            'icon_sortd': '&#xe9bf;',
+            'icon_sortdwn': '&#xe9c0;',
+            'icon_sortup': '&#xe9c1;',
+            'icon_starfld': '&#xe9c2;',
+            'icon_startout': '&#xe9c3;',
+            'icon_trends': '&#xe9c4;',
+            'undo': '&#xe9c5;',
+            'pls_add_chk': '&#xe9c6;',
+            'draw_cir_cntr': '&#xe9c7;',
+            'in_chrt': '&#xe9c8;',
+            'man_acc': '&#xe9c9;',
+            'per_err_cir': '&#xe9ca;',
+            'pen_nib': '&#xe9cb;',
+            'pen_nib_line': '&#xe9cc;',
+            'home_rep_srv': '&#xe9cd;',
+            'ac_unit': '&#xe900;',
+            'acc_circle': '&#xe901;',
+            'add': '&#xe902;',
+            'apt': '&#xe903;',
+            'appt_canc_alt': '&#xe904;',
+            'appt_canc_cir': '&#xe905;',
+            'appt_conf_cir': '&#xe906;',
+            'appt_req': '&#xe907;',
+            'appt_req_cir': '&#xe908;',
+            'apps': '&#xe909;',
+            'arr_bwd': '&#xe90a;',
+            'arr_down': '&#xe90b;',
+            'arr_dp_dn': '&#xe90c;',
+            'arr_dp_lt': '&#xe90d;',
+            'arr_dp_rt': '&#xe90e;',
+            'arr_dp_unsrt': '&#xe90f;',
+            'arr_dp_up': '&#xe910;',
+            'arr_exc': '&#xe911;',
+            'arr_fwd': '&#xe912;',
+            'arr_lt': '&#xe913;',
+            'arr_rt': '&#xe914;',
+            'arr_up': '&#xe915;',
+            'att': '&#xe916;',
+            'att_alt': '&#xe917;',
+            'tub': '&#xe918;',
+            'bed': '&#xe919;',
+            'bkm': '&#xe91a;',
+            'bfc': '&#xe91b;',
+            'bld_tl': '&#xe91c;',
+            'bus': '&#xe91d;',
+            'cal': '&#xe91e;',
+            'cal_add': '&#xe91f;',
+            'cal_alt': '&#xe920;',
+            'cal_bl': '&#xe921;',
+            'cal_evt': '&#xe922;',
+            'cal_tda': '&#xe923;',
+            'car': '&#xe924;',
+            'cht_db': '&#xe925;',
+            'chk': '&#xe926;',
+            'chk_cir_out': '&#xe927;',
+            'chkbx': '&#xe928;',
+            'chkbx_ind': '&#xe929;',
+            'chkbx_out': '&#xe92a;',
+            'chv_dwn': '&#xe92b;',
+            'chv_fst': '&#xe92c;',
+            'chv_lst': '&#xe92d;',
+            'chv_lt': '&#xe92e;',
+            'chv_rt': '&#xe92f;',
+            'chv_up': '&#xe930;',
+            'clp_fb': '&#xe931;',
+            'cls': '&#xe932;',
+            'cmnt': '&#xe933;',
+            'con_cpy': '&#xe934;',
+            'cc': '&#xe935;',
+            'dsh': '&#xe936;',
+            'del': '&#xe937;',
+            'dskt_mac': '&#xe938;',
+            'dir_arr_rt': '&#xe939;',
+            'dwnld': '&#xe93a;',
+            'env': '&#xe93b;',
+            'env_alt': '&#xe93c;',
+            'env_opn': '&#xe93d;',
+            'err_cir': '&#xe93e;',
+            'exp': '&#xe93f;',
+            'fb': '&#xe940;',
+            'fav': '&#xe941;',
+            'fav_brd': '&#xe942;',
+            'file': '&#xe943;',
+            'file_txt': '&#xe944;',
+            'fltr': '&#xe945;',
+            'fltr_li': '&#xe946;',
+            'flag': '&#xe947;',
+            'flag_bdr': '&#xe948;',
+            'fli': '&#xe949;',
+            'frm': '&#xe94a;',
+            'fwd': '&#xe94b;',
+            'gge': '&#xe94c;',
+            'gp': '&#xe94d;',
+            'hdst_mic': '&#xe94e;',
+            'help_cir': '&#xe94f;',
+            'hoa': '&#xe950;',
+            'home': '&#xe951;',
+            'home_pl': '&#xe952;',
+            'home_wrk': '&#xe953;',
+            'info_cir': '&#xe954;',
+            'ig': '&#xe955;',
+            'key_vpn': '&#xe956;',
+            'lang_glb': '&#xe957;',
+            'lap_mac': '&#xe958;',
+            'ldrbd': '&#xe959;',
+            'lght_bb': '&#xe95a;',
+            'link': '&#xe95b;',
+            'link_add': '&#xe95c;',
+            'link_rmv': '&#xe95d;',
+            'in': '&#xe95e;',
+            'live_tv': '&#xe95f;',
+            'lock': '&#xe960;',
+            'lock_open': '&#xe961;',
+            'login': '&#xe962;',
+            'logout': '&#xe963;',
+            'map': '&#xe964;',
+            'menu': '&#xe965;',
+            'msg_lin': '&#xe966;',
+            'mic': '&#xe967;',
+            'moi': '&#xe968;',
+            'mr_hor': '&#xe969;',
+            'mr_vert': '&#xe96a;',
+            'moving': '&#xe96b;',
+            'nav': '&#xe96c;',
+            'not': '&#xe96d;',
+            'not_off': '&#xe96e;',
+            'offer': '&#xe96f;',
+            'park_lcl': '&#xe970;',
+            'pen': '&#xe971;',
+            'ppl': '&#xe972;',
+            'ppl_cont': '&#xe973;',
+            'pers': '&#xe974;',
+            'pers_add': '&#xe975;',
+            'pers_rem': '&#xe976;',
+            'phone': '&#xe977;',
+            'phone_plus': '&#xe978;',
+            'photo': '&#xe979;',
+            'pie_ch': '&#xe97a;',
+            'place': '&#xe97b;',
+            'pwr_btn': '&#xe97c;',
+            'print': '&#xe97d;',
+            'ref': '&#xe97e;',
+            'ref_alt': '&#xe97f;',
+            'remove': '&#xe980;',
+            'remove_cir_out': '&#xe981;',
+            'reply': '&#xe982;',
+            'rss': '&#xe983;',
+            'save': '&#xe984;',
+            'sched': '&#xe985;',
+            'sched_brd': '&#xe986;',
+            'search': '&#xe987;',
+            'send_arr': '&#xe988;',
+            'stg': '&#xe989;',
+            'share': '&#xe98a;',
+            'share_ios': '&#xe98b;',
+            'shop_crt': '&#xe98c;',
+            'sphone': '&#xe98d;',
+            'sort': '&#xe98e;',
+            'spin': '&#xe98f;',
+            'st_pictogram': '&#xe990;',
+            'star': '&#xe991;',
+            'star_bdr': '&#xe992;',
+            'store': '&#xe993;',
+            'store_add': '&#xe994;',
+            'settings': '&#xe995;',
+            'sync': '&#xe996;',
+            'tstat': '&#xe997;',
+            'tstat_alt': '&#xe998;',
+            'thumb_up': '&#xe999;',
+            'train': '&#xe99a;',
+            'trnd_dwn': '&#xe99b;',
+            'trnd_up': '&#xe99c;',
+            'tt': '&#xe99d;',
+            'unfold_less': '&#xe99e;',
+            'unfold_more': '&#xe99f;',
+            'upload': '&#xe9a0;',
+            'usr_sched': '&#xe9a1;',
+            'vcam': '&#xe9a2;',
+            'view_cmpt': '&#xe9a3;',
+            'vis': '&#xe9a4;',
+            'vis_off': '&#xe9a5;',
+            'walk': '&#xe9a6;',
+            'warn': '&#xe9a7;',
+            'yard_sign': '&#xe9a8;',
+            'yt': '&#xe9a9;',
+            'zoom_alt': '&#xe9aa;',
+            'zoom_in': '&#xe9ab;',
+            'zoom_out': '&#xe9ac;',
+          '0': 0
+        };
+        delete icons['0'];
+        window.icomoonLiga = function (els) {
+            var classes,
+                el,
+                i,
+                innerHTML,
+                key;
+            els = els || document.getElementsByTagName('*');
+            if (!els.length) {
+                els = [els];
+            }
+            for (i = 0; ; i += 1) {
+                el = els[i];
+                if (!el) {
+                    break;
+                }
+                classes = el.className;
+                if (/sti/.test(classes)) {
+                    innerHTML = el.innerHTML;
+                    if (innerHTML && innerHTML.length > 1) {
+                        for (key in icons) {
+                            if (icons.hasOwnProperty(key)) {
+                                innerHTML = innerHTML.replace(new RegExp(key, 'g'), icons[key]);
+                            }
+                        }
+                        el.innerHTML = innerHTML;
+                    }
+                }
+            }
+        };
+        window.icomoonLiga();
+    }
+}());
