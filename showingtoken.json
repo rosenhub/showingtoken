@@ -35,6 +35,10 @@
         "type": "color",
         "description": "ShowingTime Muted Blue, Button Rollover"
       },
+      "Tertiary": {
+        "value": "#CCCDE2",
+        "type": "color"
+      },
       "Success": {
         "value": "#009145",
         "type": "color",
@@ -70,9 +74,21 @@
         "value": "#00b9b9",
         "type": "color",
         "description": "ShowingTime Cyan Billing"
+      },
+      "Appointment Outline Blue": {
+        "value": "#DADAEA",
+        "type": "color"
+      },
+      "Appointment Default Blue": {
+        "value": "#EFEFF6",
+        "type": "color"
       }
     },
     "Gray Scale": {
+      "Black": {
+        "value": "#000000",
+        "type": "color"
+      },
       "Medium Gray": {
         "value": "#666666",
         "type": "color"
@@ -81,14 +97,14 @@
         "value": "#999999",
         "type": "color"
       },
-      "Black": {
-        "value": "#000000",
-        "type": "color"
-      },
       "SIlver Gray": {
         "value": "#dedede",
         "type": "color",
         "description": "Borders"
+      },
+      "Background Secondary": {
+        "value": "#F2F2F2",
+        "type": "color"
       },
       "White": {
         "value": "#ffffff",
@@ -234,13 +250,63 @@
       "type": "fontSizes",
       "description": "Regular"
     },
+    "Regular": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "Medium": {
+      "value": "Medium",
+      "type": "fontWeights"
+    },
     "Bold": {
       "value": "Bold",
       "type": "fontWeights"
     },
-    "Regular": {
-      "value": "Regular",
-      "type": "fontWeights"
+    "Messaging": {
+      "Primary ST": {
+        "value": "#000570",
+        "type": "color"
+      },
+      "Pending": {
+        "value": "#F8BD1D",
+        "type": "color"
+      },
+      "Danger": {
+        "value": "#B30505",
+        "type": "color"
+      }
+    },
+    "UI States-Hover": {
+      "Accent": {
+        "Solid": {
+          "value": "#EF7D44",
+          "type": "color"
+        },
+        "Outline": {
+          "value": "#E7DAD3",
+          "type": "color"
+        }
+      },
+      "Secondary": {
+        "Solid": {
+          "value": "#9395AC",
+          "type": "color"
+        },
+        "Outline": {
+          "value": "#DCDCDF",
+          "type": "color"
+        }
+      },
+      "Primary ST": {
+        "Solid": {
+          "value": "#444792",
+          "type": "color"
+        },
+        "Outline": {
+          "value": "#D3D3DC",
+          "type": "color"
+        }
+      }
     }
   }
 }
