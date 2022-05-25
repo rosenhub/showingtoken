@@ -24,6 +24,10 @@
       "value": "72",
       "type": "lineHeights"
     },
+    "108": {
+      "value": "108",
+      "type": "lineHeights"
+    },
     "General": {
       "Primary ST": {
         "value": "#000570",
@@ -135,12 +139,12 @@
       "type": "borderRadius",
       "description": "Pixels"
     },
-    "Roboto Regular": {
+    "Caption-Regular": {
       "value": {
         "fontFamily": "Roboto",
         "fontWeight": "Regular",
-        "lineHeight": "AUTO",
-        "fontSize": "18",
+        "lineHeight": "16",
+        "fontSize": "12",
         "letterSpacing": "0%",
         "paragraphSpacing": "0",
         "textDecoration": "none",
@@ -148,12 +152,12 @@
       },
       "type": "typography"
     },
-    "Roboto Bold": {
+    "Caption-Bold": {
       "value": {
         "fontFamily": "Roboto",
-        "fontWeight": "Regular",
-        "lineHeight": "AUTO",
-        "fontSize": "18",
+        "fontWeight": "Bold",
+        "lineHeight": "16",
+        "fontSize": "12",
         "letterSpacing": "0%",
         "paragraphSpacing": "0",
         "textDecoration": "none",
@@ -254,10 +258,6 @@
       "value": "Regular",
       "type": "fontWeights"
     },
-    "Medium": {
-      "value": "Medium",
-      "type": "fontWeights"
-    },
     "Bold": {
       "value": "Bold",
       "type": "fontWeights"
@@ -307,6 +307,137 @@
           "type": "color"
         }
       }
+    },
+    "Body-Small": {
+      "value": {
+        "fontFamily": "Roboto",
+        "fontWeight": "Regular",
+        "lineHeight": "24",
+        "fontSize": "14",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "Body-Small-Bold": {
+      "value": {
+        "fontFamily": "Roboto",
+        "fontWeight": "Bold",
+        "lineHeight": "24",
+        "fontSize": "14",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "Body-Regular": {
+      "value": {
+        "fontFamily": "Roboto",
+        "fontWeight": "Regular",
+        "lineHeight": "24",
+        "fontSize": "16",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "H6-Body-Bold": {
+      "value": {
+        "fontFamily": "Roboto",
+        "fontWeight": "Bold",
+        "lineHeight": "24",
+        "fontSize": "16",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "H5-Bold": {
+      "value": {
+        "fontFamily": "Roboto",
+        "fontWeight": "Bold",
+        "lineHeight": "24",
+        "fontSize": "20",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "H4-Bold": {
+      "value": {
+        "fontFamily": "Roboto",
+        "fontWeight": "Bold",
+        "lineHeight": "32",
+        "fontSize": "24",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "H3-Bold": {
+      "value": {
+        "fontFamily": "Roboto",
+        "fontWeight": "Bold",
+        "lineHeight": "40",
+        "fontSize": "36",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "H2-Bold": {
+      "value": {
+        "fontFamily": "Roboto",
+        "fontWeight": "Bold",
+        "lineHeight": "64",
+        "fontSize": "48",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "H1-Bold": {
+      "value": {
+        "fontFamily": "Robotor",
+        "fontWeight": "Bold",
+        "lineHeight": "72",
+        "fontSize": "60",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "H0-Bold": {
+      "value": {
+        "fontFamily": "Roboto",
+        "fontWeight": "Bold",
+        "lineHeight": "108",
+        "fontSize": "96",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
     }
-  }
+  },
+  "$themes": []
 }
