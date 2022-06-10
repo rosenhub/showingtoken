@@ -28,80 +28,82 @@
       "value": "108",
       "type": "lineHeights"
     },
-    "primary": {
-      "value": "#000570",
-      "type": "color",
-      "description": "ShowingTime Blue"
-    },
-    "secondary": {
-      "value": "#2196f3",
-      "type": "color",
-      "description": "ShowingTime Light Blue"
-    },
-    "rollover": {
-      "value": "#717495",
-      "type": "color",
-      "description": "ShowingTime Muted Blue, Button Rollover"
-    },
-    "green": {
-      "value": "#009145",
-      "type": "color",
-      "description": "ShowingTime Green, Confirmed Status"
-    },
-    "yellow": {
-      "value": "#f8bd1d",
-      "type": "color",
-      "description": "ShowingTime Yellow, Warning, Pending Status"
-    },
-    "red": {
-      "value": "#d74006",
-      "type": "color",
-      "description": "ShowingTime Red Error, Cancelled, Declined"
-    },
-    "orange": {
-      "value": "#F6841D",
-      "type": "color",
-      "description": "ShowingTime Orange, Action Buttons"
-    },
-    "cyan": {
-      "value": "#00b9b9",
-      "type": "color",
-      "description": "ShowingTime Cyan Billing"
-    },
-    "buttongroup": {
-      "value": "#EFEFF6",
-      "type": "color",
-      "description": "ShowingTime Muted Blue for button groups"
-    },
-    "buttonborders": {
-      "value": "#DADAEA",
-      "type": "color",
-      "description": "ShowingTime Muted Blue for button group outline"
-    },
-    "gray1": {
-      "value": "#666666",
-      "type": "color"
-    },
-    "gray2": {
-      "value": "#999999",
-      "type": "color"
-    },
-    "gray3": {
-      "value": "#dedede",
-      "type": "color",
-      "description": "Borders"
-    },
-    "background": {
-      "value": "#F2F2F2",
-      "type": "color"
-    },
-    "black": {
-      "value": "#000000",
-      "type": "color"
-    },
-    "white": {
-      "value": "#ffffff",
-      "type": "color"
+    "light": {
+      "primary": {
+        "value": "#000570",
+        "type": "color",
+        "description": "ShowingTime Blue"
+      },
+      "secondary": {
+        "value": "#2196f3",
+        "type": "color",
+        "description": "ShowingTime Light Blue"
+      },
+      "rollover": {
+        "value": "#717495",
+        "type": "color",
+        "description": "ShowingTime Muted Blue, Button Rollover"
+      },
+      "green": {
+        "value": "#009145",
+        "type": "color",
+        "description": "ShowingTime Green, Confirmed Status"
+      },
+      "yellow": {
+        "value": "#f8bd1d",
+        "type": "color",
+        "description": "ShowingTime Yellow, Warning, Pending Status"
+      },
+      "red": {
+        "value": "#d74006",
+        "type": "color",
+        "description": "ShowingTime Red Error, Cancelled, Declined"
+      },
+      "orange": {
+        "value": "#F6841D",
+        "type": "color",
+        "description": "ShowingTime Orange, Action Buttons"
+      },
+      "cyan": {
+        "value": "#00b9b9",
+        "type": "color",
+        "description": "ShowingTime Cyan Billing"
+      },
+      "buttongroup": {
+        "value": "#EFEFF6",
+        "type": "color",
+        "description": "ShowingTime Muted Blue for button groups"
+      },
+      "buttonborders": {
+        "value": "#DADAEA",
+        "type": "color",
+        "description": "ShowingTime Muted Blue for button group outline"
+      },
+      "gray1": {
+        "value": "#666666",
+        "type": "color"
+      },
+      "gray2": {
+        "value": "#999999",
+        "type": "color"
+      },
+      "gray3": {
+        "value": "#dedede",
+        "type": "color",
+        "description": "Borders"
+      },
+      "background": {
+        "value": "#F2F2F2",
+        "type": "color"
+      },
+      "black": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "white": {
+        "value": "#ffffff",
+        "type": "color"
+      }
     },
     "Corner Radius": {
       "value": "4",
