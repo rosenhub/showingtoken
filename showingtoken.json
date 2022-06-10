@@ -28,111 +28,80 @@
       "value": "108",
       "type": "lineHeights"
     },
-    "General": {
-      "Primary ST": {
-        "value": "#000570",
-        "type": "color",
-        "description": "ShowingTime Blue, Primary Buttons"
-      },
-      "Secondary": {
-        "value": "#717495",
-        "type": "color",
-        "description": "ShowingTime Muted Blue, Button Rollover"
-      },
-      "Tertiary": {
-        "value": "#CCCDE2",
-        "type": "color"
-      },
-      "Success": {
-        "value": "#009145",
-        "type": "color",
-        "description": "ShowingTime Green, Confirmed Status"
-      },
-      "Pending": {
-        "value": "#f8bd1d",
-        "type": "color",
-        "description": "ShowingTime Yellow, Warning, Pending Status"
-      },
-      "Danger": {
-        "value": "#d74006",
-        "type": "color",
-        "description": "ShowingTime Red Error, Cancelled, Declined"
-      }
+    "primary": {
+      "value": "#000570",
+      "type": "color",
+      "description": "ShowingTime Blue"
     },
-    "ShowingTime": {
-      "Dark Blue": {
-        "value": "#000640",
-        "type": "color"
-      },
-      "Orange1": {
-        "value": "#F6841D",
-        "type": "color",
-        "description": "ShowingTime Orange, Action Buttons"
-      },
-      "Light Blue": {
-        "value": "#2196f3",
-        "type": "color",
-        "description": "ShowingTime Light Blue, Buttons"
-      },
-      "Cyan": {
-        "value": "#00b9b9",
-        "type": "color",
-        "description": "ShowingTime Cyan Billing"
-      },
-      "Appointment Outline Blue": {
-        "value": "#DADAEA",
-        "type": "color"
-      },
-      "Appointment Default Blue": {
-        "value": "#EFEFF6",
-        "type": "color"
-      }
+    "secondary": {
+      "value": "#2196f3",
+      "type": "color",
+      "description": "ShowingTime Light Blue"
     },
-    "Gray Scale": {
-      "Black": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "Medium Gray": {
-        "value": "#666666",
-        "type": "color"
-      },
-      "Gray": {
-        "value": "#999999",
-        "type": "color"
-      },
-      "SIlver Gray": {
-        "value": "#dedede",
-        "type": "color",
-        "description": "Borders"
-      },
-      "Background Secondary": {
-        "value": "#F2F2F2",
-        "type": "color"
-      },
-      "White": {
-        "value": "#ffffff",
-        "type": "color"
-      }
+    "rollover": {
+      "value": "#717495",
+      "type": "color",
+      "description": "ShowingTime Muted Blue, Button Rollover"
     },
-    "Background": {
-      "Background Secondary": {
-        "value": "#f2f2f2",
-        "type": "color",
-        "description": "Page BG color"
-      },
-      "Primary White Background": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "Primary ST": {
-        "value": "#000570",
-        "type": "color"
-      },
-      "Black Background": {
-        "value": "#000000",
-        "type": "color"
-      }
+    "green": {
+      "value": "#009145",
+      "type": "color",
+      "description": "ShowingTime Green, Confirmed Status"
+    },
+    "yellow": {
+      "value": "#f8bd1d",
+      "type": "color",
+      "description": "ShowingTime Yellow, Warning, Pending Status"
+    },
+    "red": {
+      "value": "#d74006",
+      "type": "color",
+      "description": "ShowingTime Red Error, Cancelled, Declined"
+    },
+    "orange": {
+      "value": "#F6841D",
+      "type": "color",
+      "description": "ShowingTime Orange, Action Buttons"
+    },
+    "cyan": {
+      "value": "#00b9b9",
+      "type": "color",
+      "description": "ShowingTime Cyan Billing"
+    },
+    "buttongroup": {
+      "value": "#EFEFF6",
+      "type": "color",
+      "description": "ShowingTime Muted Blue for button groups"
+    },
+    "buttonborders": {
+      "value": "#DADAEA",
+      "type": "color",
+      "description": "ShowingTime Muted Blue for button group outline"
+    },
+    "gray1": {
+      "value": "#666666",
+      "type": "color"
+    },
+    "gray2": {
+      "value": "#999999",
+      "type": "color"
+    },
+    "gray3": {
+      "value": "#dedede",
+      "type": "color",
+      "description": "Borders"
+    },
+    "background": {
+      "value": "#F2F2F2",
+      "type": "color"
+    },
+    "black": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "white": {
+      "value": "#ffffff",
+      "type": "color"
     },
     "Corner Radius": {
       "value": "4",
@@ -179,24 +148,6 @@
       "value": "60",
       "type": "fontSizes",
       "description": "Pixels"
-    },
-    "Color Text": {
-      "Black Text": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "Placeholder Text": {
-        "value": "#666666",
-        "type": "color"
-      },
-      "Secondary Color Text": {
-        "value": "#F2F2F2",
-        "type": "color"
-      },
-      "White Text": {
-        "value": "#ffffff",
-        "type": "color"
-      }
     },
     "H2": {
       "value": "48",
@@ -261,52 +212,6 @@
     "Bold": {
       "value": "Bold",
       "type": "fontWeights"
-    },
-    "Messaging": {
-      "Primary ST": {
-        "value": "#000570",
-        "type": "color"
-      },
-      "Pending": {
-        "value": "#F8BD1D",
-        "type": "color"
-      },
-      "Danger": {
-        "value": "#B30505",
-        "type": "color"
-      }
-    },
-    "UI States-Hover": {
-      "Accent": {
-        "Solid": {
-          "value": "#EF7D44",
-          "type": "color"
-        },
-        "Outline": {
-          "value": "#E7DAD3",
-          "type": "color"
-        }
-      },
-      "Secondary": {
-        "Solid": {
-          "value": "#9395AC",
-          "type": "color"
-        },
-        "Outline": {
-          "value": "#DCDCDF",
-          "type": "color"
-        }
-      },
-      "Primary ST": {
-        "Solid": {
-          "value": "#444792",
-          "type": "color"
-        },
-        "Outline": {
-          "value": "#D3D3DC",
-          "type": "color"
-        }
-      }
     },
     "Body-Small": {
       "value": {
@@ -437,6 +342,43 @@
         "textCase": "none"
       },
       "type": "typography"
+    },
+    "dark": {
+      "primary": {
+        "value": "#717495",
+        "type": "color",
+        "description": "Primary Button Color"
+      },
+      "secondary": {
+        "value": "#717485",
+        "type": "color",
+        "description": "ShowingTime Light Blue"
+      },
+      "rollover": {
+        "value": "#404255",
+        "type": "color",
+        "description": "Rollover button color"
+      },
+      "gray1": {
+        "value": "#e1e1e1",
+        "type": "color",
+        "description": "Light Text Color Map to gray1"
+      },
+      "gray2": {
+        "value": "#9b9b9b",
+        "type": "color",
+        "description": "Dark text colr map to gray2"
+      },
+      "gray3": {
+        "value": "#313131",
+        "type": "color",
+        "description": "card/side/header bg Map to white"
+      },
+      "background": {
+        "value": "#272727",
+        "type": "color",
+        "description": "page background color maps to .background"
+      }
     }
   },
   "$themes": []
