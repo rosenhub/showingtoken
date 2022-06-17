@@ -28,83 +28,6 @@
       "value": "108",
       "type": "lineHeights"
     },
-    "light": {
-      "primary": {
-        "value": "#000570",
-        "type": "color",
-        "description": "ShowingTime Blue"
-      },
-      "secondary": {
-        "value": "#2196f3",
-        "type": "color",
-        "description": "ShowingTime Light Blue"
-      },
-      "rollover": {
-        "value": "#717495",
-        "type": "color",
-        "description": "ShowingTime Muted Blue, Button Rollover"
-      },
-      "green": {
-        "value": "#009145",
-        "type": "color",
-        "description": "ShowingTime Green, Confirmed Status"
-      },
-      "yellow": {
-        "value": "#f8bd1d",
-        "type": "color",
-        "description": "ShowingTime Yellow, Warning, Pending Status"
-      },
-      "red": {
-        "value": "#d74006",
-        "type": "color",
-        "description": "ShowingTime Red Error, Cancelled, Declined"
-      },
-      "orange": {
-        "value": "#F6841D",
-        "type": "color",
-        "description": "ShowingTime Orange, Action Buttons"
-      },
-      "cyan": {
-        "value": "#00b9b9",
-        "type": "color",
-        "description": "ShowingTime Cyan Billing"
-      },
-      "buttongroup": {
-        "value": "#EFEFF6",
-        "type": "color",
-        "description": "ShowingTime Muted Blue for button groups"
-      },
-      "buttonborders": {
-        "value": "#DADAEA",
-        "type": "color",
-        "description": "ShowingTime Muted Blue for button group outline"
-      },
-      "gray1": {
-        "value": "#666666",
-        "type": "color"
-      },
-      "gray2": {
-        "value": "#999999",
-        "type": "color"
-      },
-      "gray3": {
-        "value": "#dedede",
-        "type": "color",
-        "description": "Borders"
-      },
-      "background": {
-        "value": "#F2F2F2",
-        "type": "color"
-      },
-      "black": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "white": {
-        "value": "#ffffff",
-        "type": "color"
-      }
-    },
     "Corner Radius": {
       "value": "4",
       "type": "borderRadius",
@@ -345,41 +268,306 @@
       },
       "type": "typography"
     },
-    "dark": {
+    "app colors": {
       "primary": {
-        "value": "#717495",
-        "type": "color",
-        "description": "Primary Button Color"
+        "light": {
+          "value": "#000570",
+          "type": "color",
+          "description": "Maps to primary.dark"
+        },
+        "dark": {
+          "value": "#313131",
+          "type": "color",
+          "description": "Maps to primary.light"
+        }
+      },
+      "app background": {
+        "light": {
+          "value": "#F2F2F2",
+          "type": "color",
+          "description": "Maps to app background.dark"
+        },
+        "dark": {
+          "value": "#272727",
+          "type": "color",
+          "description": "Maps to app background.dark"
+        }
+      }
+    },
+    "cards": {
+      "card": {
+        "light": {
+          "value": "#FFFFFF",
+          "type": "color",
+          "description": "Maps to card.dark"
+        },
+        "dark": {
+          "value": "#313131",
+          "type": "color",
+          "description": "Maps to card.light"
+        }
+      }
+    },
+    "buttons": {
+      "st blue": {
+        "light": {
+          "value": "#000570",
+          "type": "color",
+          "description": "Maps to st blue.dark"
+        },
+        "dark": {
+          "value": "#717495",
+          "type": "color",
+          "description": "Maps to st blue.light"
+        }
+      },
+      "st blue hover": {
+        "light": {
+          "value": "#717495",
+          "type": "color",
+          "description": "Maps to st blue hover.dark"
+        },
+        "dark": {
+          "value": "#404255",
+          "type": "color",
+          "description": "Maps to st blue hover.light"
+        }
+      },
+      "button group": {
+        "light": {
+          "value": "#EFEFF6",
+          "type": "color",
+          "description": "Maps to button group.dark Color used in the button group component"
+        },
+        "dark": {
+          "value": "#313131",
+          "type": "color",
+          "description": "Maps to button group.light"
+        }
+      },
+      "btn group border": {
+        "light": {
+          "value": "#DADAEA",
+          "type": "color",
+          "description": "Border used for the button group. Maps to btn group border.dark"
+        },
+        "dark": {
+          "value": "#9B9B9B",
+          "type": "color",
+          "description": "Maps to btn group border.light"
+        }
+      },
+      "hover dropdown": {
+        "light": {
+          "value": "#EFEFF6",
+          "type": "color",
+          "description": "Hover for dropdown fields"
+        }
+      },
+      "orange": {
+        "light": {
+          "value": "#F6841D",
+          "type": "color",
+          "description": "Action buttons"
+        }
+      }
+    },
+    "notifications": {
+      "primary": {
+        "light": {
+          "value": "#000570",
+          "type": "color",
+          "description": "ST Blue. This is used in calendary notifications an other applications in calendar"
+        }
+      },
+      "light blue": {
+        "light": {
+          "value": "#2196F3",
+          "type": "color",
+          "description": "Used for waypoint and feedback components"
+        }
+      },
+      "green": {
+        "light": {
+          "value": "#009145",
+          "type": "color",
+          "description": "Confirmed Statuses"
+        }
+      },
+      "yellow": {
+        "light": {
+          "value": "#F8BD1D",
+          "type": "color",
+          "description": "Warning and Pending statuses"
+        }
+      },
+      "yellow muted": {
+        "light": {
+          "value": "#FFF0CC",
+          "type": "color",
+          "description": "This is used in warning messages. KEEP NOTE, that \"Notifications/yellow.light\" is used for the border"
+        }
+      },
+      "red": {
+        "light": {
+          "value": "#B30505",
+          "type": "color",
+          "description": "Error, Cancelled, and Declined statuses"
+        }
+      },
+      "cyan": {
+        "light": {
+          "value": "#00B9B9",
+          "type": "color",
+          "description": "Billing"
+        }
+      }
+    },
+    "text": {
+      "st blue": {
+        "light": {
+          "value": "#000570",
+          "type": "color",
+          "description": "Maps to st blue.light"
+        },
+        "dark": {
+          "value": "#E1E1E1",
+          "type": "color",
+          "description": "Maps to st blue.light"
+        }
+      },
+      "white": {
+        "light": {
+          "value": "#FFFFFF",
+          "type": "color",
+          "description": "Maps to white.dark"
+        },
+        "dark": {
+          "value": "#EAEAEA",
+          "type": "color",
+          "description": "Maps to white.light"
+        }
+      },
+      "primary": {
+        "light": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Maps to primary.dark"
+        },
+        "dark": {
+          "value": "#E1E1E1",
+          "type": "color",
+          "description": "Maps to primary.light"
+        }
       },
       "secondary": {
-        "value": "#717485",
-        "type": "color",
-        "description": "ShowingTime Light Blue"
+        "light": {
+          "value": "#666666",
+          "type": "color",
+          "description": "Maps to secondary.dark"
+        },
+        "dark": {
+          "value": "#F0F0F0",
+          "type": "color",
+          "description": "Maps to secondary.light"
+        }
       },
-      "rollover": {
-        "value": "#404255",
-        "type": "color",
-        "description": "Rollover button color"
+      "inactive": {
+        "light": {
+          "value": "#717495",
+          "type": "color",
+          "description": "Maps to inactive.dark"
+        },
+        "dark": {
+          "value": "#AAACBF",
+          "type": "color",
+          "description": "Maps to inactive.light"
+        }
       },
-      "gray1": {
-        "value": "#e1e1e1",
-        "type": "color",
-        "description": "Light Text Color Map to gray1"
+      "black": {
+        "light": {
+          "value": "#000000",
+          "type": "color",
+          "description": "For text that needs  to stay black in dark mode!"
+        }
+      }
+    },
+    "icon": {
+      "st blue": {
+        "light": {
+          "value": "#000570",
+          "type": "color",
+          "description": "Maps to st blue.dark"
+        },
+        "dark": {
+          "value": "#F8F8F8",
+          "type": "color",
+          "description": "Maps to st blue.light"
+        }
       },
-      "gray2": {
-        "value": "#9b9b9b",
-        "type": "color",
-        "description": "Dark text colr map to gray2"
+      "white": {
+        "light": {
+          "value": "#FFFFFF",
+          "type": "color",
+          "description": "Maps to white.dark"
+        },
+        "dark": {
+          "value": "#FFFFFF",
+          "type": "color",
+          "description": "Maps to white.light"
+        }
       },
-      "gray3": {
-        "value": "#313131",
-        "type": "color",
-        "description": "card/side/header bg Map to white"
+      "black": {
+        "light": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Maps to black.dark"
+        },
+        "dark": {
+          "value": "#FFFFFF",
+          "type": "color",
+          "description": "Maps to black.light"
+        }
+      }
+    },
+    "grays": {
+      "border": {
+        "light": {
+          "value": "#DEDEDE",
+          "type": "color",
+          "description": "Maps to border.dark"
+        },
+        "dark": {
+          "value": "#666666",
+          "type": "color",
+          "description": "Maps to borders.light"
+        }
       },
-      "background": {
-        "value": "#272727",
-        "type": "color",
-        "description": "page background color maps to .background"
+      "divider": {
+        "light": {
+          "value": "#DEDEDE",
+          "type": "color",
+          "description": "Maps to divider.dark"
+        },
+        "dark": {
+          "value": "#666666",
+          "type": "color",
+          "description": "Maps to divider.light"
+        }
+      }
+    },
+    "gradient": {
+      "gradient": {
+        "light": {
+          "value": "#FFFFFF",
+          "type": "color",
+          "description": "white gradient for light mode, used over the time block"
+        },
+        "dark": {
+          "value": "#313131",
+          "type": "color",
+          "description": "white gradient for light mode, used over the time block"
+        }
       }
     }
   },
