@@ -460,16 +460,16 @@
           "description": "Maps to primary.light"
         }
       },
-      "gray": {
+      "placeholder": {
         "light": {
-          "value": "#757575",
+          "value": "#666666",
           "type": "color",
-          "description": "Maps to gray.dark"
+          "description": "Maps to placeholder.dark"
         },
         "dark": {
           "value": "#F0F0F0",
           "type": "color",
-          "description": "Maps to gray.light"
+          "description": "Maps to placeholder.light"
         }
       },
       "inactive": {
@@ -543,7 +543,7 @@
       },
       "gray": {
         "light": {
-          "value": "#757575",
+          "value": "#666666",
           "type": "color",
           "description": "maps to gray.dark"
         },
