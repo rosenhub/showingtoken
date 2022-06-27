@@ -617,6 +617,30 @@
           "description": "white gradient for light mode, used over the time block"
         }
       }
+    },
+    "Drop Shadow": {
+      "light": {
+        "value": {
+          "x": "1",
+          "y": "1",
+          "blur": "1",
+          "spread": "0",
+          "color": "#000000",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      },
+      "dark": {
+        "value": {
+          "x": "1",
+          "y": "1",
+          "blur": "1",
+          "spread": "0",
+          "color": "rgba(0,0,0,0.32)",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      }
     }
   },
   "$themes": []
