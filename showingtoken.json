@@ -460,16 +460,16 @@
           "description": "Maps to primary.light"
         }
       },
-      "secondary": {
+      "gray": {
         "light": {
-          "value": "#666666",
+          "value": "#757575",
           "type": "color",
-          "description": "Maps to secondary.dark"
+          "description": "Maps to gray.dark"
         },
         "dark": {
           "value": "#F0F0F0",
           "type": "color",
-          "description": "Maps to secondary.light"
+          "description": "Maps to gray.light"
         }
       },
       "inactive": {
@@ -528,6 +528,30 @@
           "type": "color",
           "description": "Maps to black.light"
         }
+      },
+      "st blue2": {
+        "light": {
+          "value": "#000570",
+          "type": "color",
+          "description": "Maps to st blue2.dark"
+        },
+        "dark": {
+          "value": "#717495",
+          "type": "color",
+          "description": "maps to st blue2.light"
+        }
+      },
+      "gray": {
+        "light": {
+          "value": "#757575",
+          "type": "color",
+          "description": "maps to gray.dark"
+        },
+        "dark": {
+          "value": "#f0f0f0",
+          "type": "color",
+          "description": "maps to gray.light"
+        }
       }
     },
     "grays": {
@@ -553,6 +577,30 @@
           "value": "#666666",
           "type": "color",
           "description": "Maps to divider.light"
+        }
+      },
+      "disabled": {
+        "light": {
+          "value": "#e0e0e0",
+          "type": "color",
+          "description": "Disabled state. Example: DIsabled Toggle switch"
+        },
+        "dark": {
+          "value": "#505050",
+          "type": "color",
+          "description": "Dark mode disabled color"
+        }
+      },
+      "off": {
+        "light": {
+          "value": "#a9a9a9",
+          "type": "color",
+          "description": "Used for the Toggle off switch"
+        },
+        "dark": {
+          "value": "#5f5f5f",
+          "type": "color",
+          "description": "dark mode for off toggle switch"
         }
       }
     },
