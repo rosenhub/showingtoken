@@ -524,7 +524,7 @@
           "description": "Maps to black.dark"
         },
         "dark": {
-          "value": "#FFFFFF",
+          "value": "#E1E1E1",
           "type": "color",
           "description": "Maps to black.light"
         }
