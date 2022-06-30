@@ -448,7 +448,7 @@
           "description": "Maps to white.light"
         }
       },
-      "primary": {
+      "black": {
         "light": {
           "value": "#000000",
           "type": "color",
@@ -484,7 +484,7 @@
           "description": "Maps to inactive.light"
         }
       },
-      "black": {
+      "black2": {
         "light": {
           "value": "#000000",
           "type": "color",
