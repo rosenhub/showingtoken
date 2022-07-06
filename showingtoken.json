@@ -552,6 +552,13 @@
           "type": "color",
           "description": "maps to gray.light"
         }
+      },
+      "orange": {
+        "light": {
+          "value": "#f6841d",
+          "type": "color",
+          "description": "ShowingTime orange used in the ST icon"
+        }
       }
     },
     "grays": {
